@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imgGradient"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/degradado"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/imgGradient"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/editTextAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/InputHint"
+        android:inputType="number"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/editTextAmount"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+
+    <TextView
+        android:id="@+id/textViewSwipe"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:background="@color/someKindOfBlue"
+        android:text="@string/instructions" />
+
+</RelativeLayout>

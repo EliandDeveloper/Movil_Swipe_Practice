@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tema_2</string>
+    <string name="instructions">Swipe izquierda a derecha para salir \n
+        \nSwipe derecha a izquierda para limpiar</string>
+    <string name="InputHint">Ingrese la cantidad</string>
+    <string name="SwipeZone">Zona para el Swipe</string>
+
+</resources>
